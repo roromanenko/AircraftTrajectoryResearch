@@ -1,0 +1,126 @@
+# =============== #
+# UNITY PROJECTS  #
+# =============== #
+
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+MemoryCaptures/
+Recordings/
+sysinfo.txt
+
+# Временные файлы и кэш
+*.pidb
+*.userprefs
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Cache и Package кэш
+/[Aa]ssets/AssetStoreTools*
+/[Bb]uilds/
+/[Ll]ibrary/
+/[Ll]ocalPackages/
+/[Tt]emp/
+/[Oo]bj/
+/[Uu]serSettings/
+
+# Автоматически создаваемые файлы плеера
+*.apk
+*.unitypackage
+*.aab
+
+# Автоматически создаваемые файлы сцен/освещения
+LightmapSnapshot.asset
+LightingData.asset
+OcclusionCullingData.asset
+
+# =============== #
+# VISUAL STUDIO   #
+# =============== #
+
+# Пользовательские файлы и настройки IDE
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Кэш и выходные артефакты
+[Bb]in/
+[Dd]ebug*/
+[Rr]elease*/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+[Bb]ld/
+[Bb]inaries/
+*.obj
+*.exe
+*.dll
+*.log
+*.vspscc
+*.vssscc
+*.tmp
+*.cache
+*.dbmdl
+
+# Rider (JetBrains)
+.idea/
+*.sln.iml
+
+# =============== #
+# SYSTEM FILES    #
+# =============== #
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =============== #
+# UNITY PACKAGES  #
+# =============== #
+
+# Оставляем важные — Assets, Packages, ProjectSettings
+!Assets/
+!Packages/
+!ProjectSettings/
+!*.cs
+!*.shader
+!*.asmdef
+!*.json
+!*.meta
+!*.unity
+!*.prefab
+!*.mat
+!*.asset
+!*.anim
+!*.controller
+!*.physicsMaterial2D
+!*.physicsMaterial
+!*.spriteatlas
+!*.cginc
+
+# Игнорируем кеш пакетов
+Packages/com.unity.*.samples/
+
+# =============== #
+# TEXTURE / AUDIO CACHE (опционально) #
+# =============== #
+*.psd
+*.tga
+*.wav
+*.mp3
+*.aiff
+*.ogg
+*.mp4
+*.mov
+*.avi
