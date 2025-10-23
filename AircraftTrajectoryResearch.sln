@@ -1,11 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36408.4 d17.14
+VisualStudioVersion = 17.14.36408.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AircraftTrajectoryResearch", "AircraftTrajectoryResearch\AircraftTrajectoryResearch.csproj", "{89AACEEB-BB39-4EE3-86DA-6DE810B2BFA9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{2293A94B-3E9A-46C7-A444-E499BD06C234}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AircraftTrajectoryUI", "AircraftTrajectoryUI\AircraftTrajectoryUI.csproj", "{46EC4324-BD61-42DF-8121-CADF83C98B74}"
+	ProjectSection(ProjectDependencies) = postProject
+		{89AACEEB-BB39-4EE3-86DA-6DE810B2BFA9} = {89AACEEB-BB39-4EE3-86DA-6DE810B2BFA9}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +26,10 @@ Global
 		{2293A94B-3E9A-46C7-A444-E499BD06C234}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2293A94B-3E9A-46C7-A444-E499BD06C234}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2293A94B-3E9A-46C7-A444-E499BD06C234}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46EC4324-BD61-42DF-8121-CADF83C98B74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46EC4324-BD61-42DF-8121-CADF83C98B74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46EC4324-BD61-42DF-8121-CADF83C98B74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46EC4324-BD61-42DF-8121-CADF83C98B74}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
