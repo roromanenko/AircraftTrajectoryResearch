@@ -20,7 +20,7 @@ namespace AircraftTrajectoryResearch
 			double dt = 0.01;
 			double w = 0;
 			double NV = 0;
-			int controlLawNumber = 1;
+			int controlLawNumber = 3;
 			double X0 = -50000;
 			double Z0 = 2000;
 

@@ -29,7 +29,7 @@ namespace AircraftTrajectoryUI
             var controlLaw = new CalculateControlLaw();
 
             var simulation = new Simulation(coeff, parameters, controlLaw);
-            _result = simulation.Run(tEnd: 50, dt: 0.1, w: w, NV: NV, controlLawNumber: controlLawNumber, X0: 100, Z0: Z0);
+            _result = simulation.Run(tEnd: 50, dt: 0.1, w: w, NV: NV, controlLawNumber: controlLawNumber, X0: -50000, Z0: Z0);
 
             // показуємо вибір режиму (радіо-кнопки)
             ModeSelector.Visibility = Visibility.Visible;
