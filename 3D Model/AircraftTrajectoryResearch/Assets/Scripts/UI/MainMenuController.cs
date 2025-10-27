@@ -63,14 +63,14 @@ public class MainMenuController : MonoBehaviour
 		PlayerPrefs.SetInt("ControlLaw", controlLaw);
 		PlayerPrefs.Save();
 
-		SceneManager.LoadScene("SimulationScene");
+		SceneFader.FadeToScene("SimulationScene");
 	}
 
 	void OnViewPaths()
 	{
 		Debug.Log("📈 Просмотр сохранённых путей...");
 		PlayerPrefs.SetInt("ViewMode", 1); // режим просмотра
-		SceneManager.LoadScene("SimulationScene");
+		SceneFader.FadeToScene("SimulationScene");
 	}
 
 	void OnClearPaths()

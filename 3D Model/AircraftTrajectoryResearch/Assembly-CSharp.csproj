@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\UI\MainMenuController.cs" />
     <Compile Include="Assets\Scripts\Camera\CameraSwitcher.cs" />
     <Compile Include="Assets\Scripts\Simulation\Simulation.cs" />
+    <Compile Include="Assets\Scripts\UI\SceneFader.cs" />
     <Compile Include="Assets\Scripts\Simulation\Params.cs" />
     <Compile Include="Assets\Scripts\UI\HUDController.cs" />
     <Compile Include="Assets\Scripts\Simulation\CalculateControlLaw.cs" />

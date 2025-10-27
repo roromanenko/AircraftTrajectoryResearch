@@ -352,6 +352,6 @@ public class FlightSimulationController : MonoBehaviour
 
 	void ReturnToMenu()
 	{
-		SceneManager.LoadScene("MainMenu");
+		SceneFader.FadeToScene("MainMenu");
 	}
 }
