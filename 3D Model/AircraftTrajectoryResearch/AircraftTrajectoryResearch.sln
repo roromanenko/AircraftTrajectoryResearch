@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sc.terrain.painter.editor",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sc.terrain.painter.runtime", "sc.terrain.painter.runtime.csproj", "{FF4A53B2-208E-F642-DDC0-8A4781EA42A6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{1023045B-8CF4-17C9-536C-BDA23EC20B72}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{FF4A53B2-208E-F642-DDC0-8A4781EA42A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF4A53B2-208E-F642-DDC0-8A4781EA42A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF4A53B2-208E-F642-DDC0-8A4781EA42A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1023045B-8CF4-17C9-536C-BDA23EC20B72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1023045B-8CF4-17C9-536C-BDA23EC20B72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1023045B-8CF4-17C9-536C-BDA23EC20B72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1023045B-8CF4-17C9-536C-BDA23EC20B72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

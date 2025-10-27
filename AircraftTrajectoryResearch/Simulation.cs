@@ -39,7 +39,7 @@ namespace AircraftTrajectoryResearch
 			_controlLaw = controlLaw;
 		}
 
-		public SimulationResult Run(double tEnd, double dt, double w, double NV, int controlLawNumber, double X0, double Z0)
+		public SimulationResult Run(double dt, double w, double NV, int controlLawNumber, double X0, double Z0)
 		{
 			//Result lists
 			var time = new List<double>();
@@ -76,7 +76,7 @@ namespace AircraftTrajectoryResearch
 				{
 					1 => _controlLaw.CalculateFirstLaw(_parameters, y[2], x[2], x[10], x[7], y[9], y[8]),
 					2 => _controlLaw.CalculateSecondLaw(_parameters, y[2], x[2], x[10], x[7], y[9], y[8], x[9], x[8]),
-					3 => _controlLaw.CalculateThirdLaw(_parameters, y[9], x[9], x[2], y[2]),
+					3 => _controlLaw.CalculateThirdLaw(_parameters, y[9], x[9], y[3], y[2]),
 					_ => _controlLaw.CalculateFirstLaw(_parameters, y[2], x[2], x[10], x[7], y[9], y[8])
 				};
 

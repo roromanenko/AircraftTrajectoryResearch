@@ -16,7 +16,6 @@ namespace AircraftTrajectoryResearch
 
 			var sim = new Simulation(coeff, parameters, controlLaw);
 
-			double tEnd = 90;
 			double dt = 0.01;
 			double w = 0;
 			double NV = 0;
@@ -24,7 +23,7 @@ namespace AircraftTrajectoryResearch
 			double X0 = -50000;
 			double Z0 = 2000;
 
-			SimulationResult result = sim.Run(tEnd, dt, w, NV, controlLawNumber, X0, Z0);
+			SimulationResult result = sim.Run(dt, w, NV, controlLawNumber, X0, Z0);
 
 			Console.WriteLine("=== X ===");
 

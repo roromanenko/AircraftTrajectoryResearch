@@ -556,10 +556,10 @@ MonoBehaviour:
     m_Value: 1
   colorMode:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0
   color:
-    m_OverrideState: 0
-    m_Value: {r: 0.3584906, g: 0.103150584, b: 0.103150584, a: 1}
+    m_OverrideState: 1
+    m_Value: {r: 68.5935, g: 68.5935, b: 68.5935, a: 1}
   tint:
     m_OverrideState: 1
     m_Value: {r: 1, g: 0.8199223, b: 0.7216981, a: 1}
@@ -577,13 +577,13 @@ MonoBehaviour:
     m_Value: 1000
   baseHeight:
     m_OverrideState: 1
-    m_Value: 653
+    m_Value: 1288
   maximumHeight:
     m_OverrideState: 0
     m_Value: 16549
   meanFreePath:
     m_OverrideState: 1
-    m_Value: 2463
+    m_Value: 4678
   enableVolumetricFog:
     m_OverrideState: 0
     m_Value: 1
